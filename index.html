@@ -5,29 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="results.html" method="GET">
+    <form id="accountCreationForm" action="results.html" method="GET">
+
+        <p >Let's do this!</p>
+
+        <section class="formRows">
+
+            <div class="labelInput">
+                <label for="firstName">FIRST NAME</label>
+                <input type="text" id="firstName" name="firstName" >
+            </div>
+            
+            <div class="labelInput">
+                <label for="lastName">LAST NAME</label>
+                <input type="text" id="lastName" name="lastName" >
+            </div>
+        </section>
+
+        <section class="formRows">
+
+            <div class="labelInput">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email">
+            </div>
+    
+            <div class="labelInput">
+                <label for="phoneNumber">PHONE NUMBER</label>
+                <input type="number" id="phoneNumber" name="phoneNumber">
+            </div>
+        </section>
+
+        <section class="formRows">
+
+            <div class="labelInput">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password">
+            </div>
+    
+            <div class="labelInput">
+                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                <input type="password" id="confirmPassword" name="confirmPassword">
+            </div>
+        </section>
         
-        <label for="firstname">FIRST NAME</label>
-        <input type="text" id="firstname" name="firstname" >
-
-        <label for="lastname">LAST NAME</label>
-        <input type="text" id="lastname" name="lastname" >
-
-        <label for="email">EMAIL</label>
-        <input type="email" id="email" name="email">
-
-        <label for="phoneNumber">PHONE NUMBER</label>
-        <input type="number" id="phoneNumber" name="phoneNumber">
-
-        <label for="password">PASSWORD</label>
-        <input type="password" id="password" name="password">
-
-        <label for="confirmPassword">CONFIRM PASSWORD</label>
-        <input type="password" id="confirmPassword" name="confirmPassword">
-
     </form>
+    <button type="submit" form="accountCreationForm">Create Account</button>
 </body>
 </html>
