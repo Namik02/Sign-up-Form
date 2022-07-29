@@ -39,6 +39,8 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
+    background-color: #F0FFFF;
 }
 p{font-size: 20px; font-weight: bold;}
 
@@ -47,25 +49,27 @@ header {
     padding: 16px;
     padding-top: 64px;
     
-    background-color: whitesmoke;
+    background-color: #4682B4;
 }
 
 form {
     padding-left: 16px;
+    background-color: #F0FFFF;
 }
 input, label {display: block;}
 .labelInput {padding: 16px;}
 .formRows {display: flex; padding: 4px;}
 
 footer{
-    background-color: whitesmoke;
+    background-color: #4682B4;
     padding: 16px;
     padding-bottom: 48px;
 }
 #submitButton{
-    background-color: aqua;
+    background-color: #8b0000;
     color: white;
     border-radius: 8px;
+    border-style: hidden;
 }
 
 
