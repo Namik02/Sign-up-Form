@@ -1,9 +1,27 @@
-input, label {
-    display: block;
+body {
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    border-left: 100px solid black;
+    border-right: 100px solid black;
+    
+}
+main {
+    margin: 0;
+    
 }
 
+aside {
+    background-image: url('bg.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+input, label {display: block;}
+
 .labelInput {
-    padding: 16px;
+padding: 16px;
 }
 
 .formRows {
@@ -12,4 +30,13 @@ input, label {
 }
 header {
     max-width: 700px;
+}
+
+
+
+#logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
