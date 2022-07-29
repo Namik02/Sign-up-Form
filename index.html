@@ -8,50 +8,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="accountCreationForm" action="results.html" method="GET">
+    <aside></aside>
+    <main>
+        <header>
+            <p>This is not a real online service! YOu know you need something like this in your life to help you realize your deepest dreams.
+            <br> Sign up now to get started.</p>
 
-        <p >Let's do this!</p>
+            <p>You know you want to.</p>
+        </header>
+        <form id="accountCreationForm" action="results.html" method="GET">
 
-        <section class="formRows">
-
-            <div class="labelInput">
-                <label for="firstName">FIRST NAME</label>
-                <input type="text" id="firstName" name="firstName" >
-            </div>
-            
-            <div class="labelInput">
-                <label for="lastName">LAST NAME</label>
-                <input type="text" id="lastName" name="lastName" >
-            </div>
-        </section>
-
-        <section class="formRows">
-
-            <div class="labelInput">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
-            </div>
+            <p >Let's do this!</p>
     
-            <div class="labelInput">
-                <label for="phoneNumber">PHONE NUMBER</label>
-                <input type="number" id="phoneNumber" name="phoneNumber">
-            </div>
-        </section>
-
-        <section class="formRows">
-
-            <div class="labelInput">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-            </div>
+            <section class="formRows">
     
-            <div class="labelInput">
-                <label for="confirmPassword">CONFIRM PASSWORD</label>
-                <input type="password" id="confirmPassword" name="confirmPassword">
-            </div>
-        </section>
+                <div class="labelInput">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" id="firstName" name="firstName" >
+                </div>
+                
+                <div class="labelInput">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" id="lastName" name="lastName" >
+                </div>
+            </section>
+    
+            <section class="formRows">
+    
+                <div class="labelInput">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email">
+                </div>
         
-    </form>
-    <button type="submit" form="accountCreationForm">Create Account</button>
+                <div class="labelInput">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="number" id="phoneNumber" name="phoneNumber">
+                </div>
+            </section>
+    
+            <section class="formRows">
+    
+                <div class="labelInput">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password" name="password">
+                </div>
+        
+                <div class="labelInput">
+                    <label for="confirmPassword">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirmPassword" name="confirmPassword">
+                </div>
+            </section>
+            
+        </form>
+        <footer>
+            <button type="submit" form="accountCreationForm">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </footer>
+
+    </main>
 </body>
 </html>
