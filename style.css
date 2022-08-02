@@ -1,9 +1,9 @@
 :root {
-    font-size: 12px;
+    font-size: 2vh;
 }
 body {
     display: flex;
-
+    
 
     margin: 0;
 }
@@ -15,7 +15,7 @@ aside {
     background-size: 100%;
     /* background-repeat: no-repeat; */
 
-    height: 100vh;
+    height: auto;
     width: 40vw;
 
     
@@ -33,8 +33,8 @@ aside {
 
 
 main {
-    height: 100vh;
-    width: 60vw;
+    height: auto;
+    width: auto;
 
     display: flex;
     flex-direction: column;
@@ -42,11 +42,11 @@ main {
     
     background-color: #F0FFFF;
 }
-p{font-size: 20px; font-weight: bold;}
+p{font-size: 150%; font-weight: bold;}
 
 
 header {
-    padding: 16px;
+    padding: 10px;
     padding-top: 64px;
     
     background-color: #4682B4;
@@ -58,7 +58,7 @@ form {
 }
 input, label {display: block;}
 .labelInput {padding: 16px;}
-.formRows {display: flex; padding: 4px;}
+.formRows {display: flex; padding: 4px; }
 
 footer{
     background-color: #4682B4;
@@ -73,8 +73,17 @@ footer{
 }
 
 
-
-
+input {
+    border-style: solid;
+    border-radius: 10px;
+}
+input:invalid {
+    border-color: red;
+  }
+  
+input:valid {
+    border-color: black;
+  }
 
 
 
